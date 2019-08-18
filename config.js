@@ -15,6 +15,7 @@ const config = {
   siteUrl: `https://newo.me`,
   dynamicComments: true,
   gaTrackingId: '',
+  //mailChimpEndpoint: '',
 }
 
 module.exports = config

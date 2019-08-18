@@ -1,6 +1,6 @@
 import React from "react"
 import Menu from "./Menu"
-import Logo from "./Logo"
+//import Logo from "./Logo"
 import useSiteMetadata from "../hooks/use-site-metadata"
 
 const Header = () => {
@@ -16,7 +16,7 @@ const Header = () => {
         <div className="w-full max-w-screen-xl relative mx-auto px-6">
           <div className="flex items-center justify-between text-white">
             <div className="lg:w-1/4 xl:w-1/5 mr-4">
-              <Logo data={title} />
+              {/*<Logo data={title} />*/}
             </div>
 
             {/* <div>

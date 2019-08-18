@@ -7,7 +7,7 @@ import PostEntryTitle from '../../components/PostEntryTitle';
 import PostEntryMedia from '../../components/PostEntryMedia';
 import EngagementBar from '../../components/EngagementBar';
 import SEO from '../../components/SEO';
-import BlogOptin from "../../components/BlogOptin";
+//import BlogOptin from "../../components/BlogOptin";
 import CommentList from '../../components/CommentList';
 import CommentForm from '../../components/CommentForm';
 
@@ -58,7 +58,7 @@ const Post = ({ pageContext: post }) => {
           dangerouslySetInnerHTML={syntaxHighlighter(post.content)}
         />
         <footer className="entry-footer max-w-2xl m-auto">
-          <BlogOptin />
+          {/*<BlogOptin />*/}
           <div className="entry-footer__taxonomy justify-end self-center items-center">
             {post.categories.nodes.length || post.tags.nodes.length
               ? renderTerms(post.categories.nodes, post.tags.nodes)
