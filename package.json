@@ -1,12 +1,12 @@
 {
-  "name": "gatsby-theme-publisher",
+  "name": "gatsby-theme-newome",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "author": "Scott Bolinger",
+  "author": "Nico Figueira",
   "repository": {
     "type": "git",
-    "url": "https://github.com/scottopolis"
+    "url": "https://github.com/New0"
   },
   "keywords": [
     "gatsby",
